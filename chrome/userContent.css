@@ -21,3 +21,64 @@
         display: none !important;
     }
 }
+
+@-moz-document url-prefix("about:preferences") {
+    .navigation {
+        background: rgba(255, 255, 255, 0.1) !important;
+        border: light-dark(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)) 1px
+            solid !important;
+        margin: 3vh 0px 3vh 3vh;
+        border-radius: 12px !important;
+    }
+
+    #categories .category {
+        margin: 0 10px !important;
+    }
+
+    #categories {
+        margin: 10px 0px 0px 0px !important;
+    }
+
+    .sidebar-footer-list {
+        margin: 0px 10px 10px !important;
+    }
+
+    .category {
+        border-radius: 20px !important;
+    }
+
+    #categories > .category[selected] {
+        background: var(--color-violet-10) !important;
+        color: var(--color-violet-80) !important;
+    }
+
+    * {
+        accent-color: var(--color-violet-30) !important;
+    }
+
+    .picker-item[checked] {
+        border: 4px var(--color-violet-30) solid !important;
+    }
+}
+
+/* This shit doesn't work, pls someone come and fix it.... */
+
+/* @-moz-document url("about:addons") {
+    #categories .category {
+        margin: 0 10px !important;
+    }
+
+    #categories {
+        margin: 10px 0px 0px 0px !important;
+    }
+
+    .category {
+        border-radius: 20px !important;
+    }
+
+    #categories > .category[selected] {
+        background: var(--color-violet-10) !important;
+        color: var(--color-violet-80) !important;
+        fill: blue !important;
+    }
+} */
