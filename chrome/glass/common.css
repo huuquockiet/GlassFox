@@ -3,13 +3,13 @@
     #tabbrowser-tabpanels,
     browser[type="content-primary"],
     browser[type="content"] > html {
-        border-radius: 8px !important;
+        border-radius: 8px;
         overflow: clip;
     }
 
     #tabbrowser-tabbox {
         margin: 0px 4px 4px 4px !important;
-        border: rgba(255, 255, 255, 0.5) 1px solid !important;
+        border: rgba(255, 255, 255, 0.5) 1px solid;
     }
 }
 
@@ -23,7 +23,7 @@
 }
 
 #statuspanel {
-    margin: 4px !important;
+    margin: 4px;
 }
 
 #statuspanel-label {
@@ -36,4 +36,11 @@
 
 #PersonalToolbar {
     background: transparent !important;
+}
+
+#panel-sidebar-select-box {
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: rgba(255, 255, 255, 0.5) 1px solid !important;
+    margin: 0px 4px 4px 0px;
 }

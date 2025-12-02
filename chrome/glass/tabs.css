@@ -5,7 +5,7 @@
 }
 
 :root {
-    --tab-min-height: 20px !important;
+    --tab-min-height: 30px !important;
 }
 
 #tabbrowser-tabs .tabbrowser-tabs .tabbrowser-tab {
@@ -14,14 +14,14 @@
 }
 
 .tabbrowser-tab:not([selected]) {
-    opacity: 0.7 !important;
+    opacity: 0.7;
 }
 
 #TabsToolbar {
     background-color: rgba(255, 255, 255, 0.1) !important;
     border: rgba(255, 255, 255, 0.5) 1px solid !important;
     margin: 4px 4px 0px 4px;
-    border-radius: 10px !important;
+    border-radius: 10px;
 }
 
 .tabbrowser-tab[selected] .tab-background {
