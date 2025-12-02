@@ -10,7 +10,7 @@ This CSS will make your Firefox/Floorp looks glassy! ( nice )
 2. Search for `toolkit.legacyUserProfileCustomizations.stylesheets`.
 3. Set it to true ( click the arrow button )
 4. Install Firefox Color and use this [theme](https://color.firefox.com/?theme=XQAAAAImAQAAAAAAAABBKYhm849SCia3ftKEGccwS-xMDPrv2Sw6Caq-qy5QgqeHG4K15QeDoRokmgjiM6AAxM3X9F70ZoGsfXBn8NHNS5chMvkRB4ubMyj96LOtIiijIsgivikShXIJBiNLhibBR-iNGmJEyvv6GxT3L8ZfZ44U7SMuqRU34nmT2wH0zXB7cYRhxWi9IXLqUA_QfQAjOd6C4Ce-9yfJm6ratFBHYVIYP_6fLRM)
-5. If you are using Floorp, please use Protonn tab style.
+5. If you are using Floorp, please use Proton tab style.
 
 ### Step 2: Install the files
 1. See the green `Code` button up there? Click it :)
