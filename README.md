@@ -13,7 +13,7 @@ This CSS will make your Firefox looks glassy! ( nice )
 
 ### Step 2: Open your profile folder and copy `chrome`
 1. Open `about:support`.
-2. Find `Profile Folder`
+2. Find `Profile Directory`
 3. Open it.
 4. Copy the `chrome` folder to your profile. Now, restart Firefox and you are set!
 

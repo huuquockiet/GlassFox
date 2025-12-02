@@ -1,0 +1,39 @@
+:root:not([inDOMFullscreen]) {
+    #tabbrowser-tabbox[flex],
+    #tabbrowser-tabpanels,
+    browser[type="content-primary"],
+    browser[type="content"] > html {
+        border-radius: 8px !important;
+        overflow: clip;
+    }
+
+    #tabbrowser-tabbox {
+        margin: 0px 4px 4px 4px !important;
+        border: rgba(255, 255, 255, 0.5) 1px solid !important;
+    }
+}
+
+#browser {
+    background: none !important;
+}
+
+#main-window {
+    background: url("background.jpg") no-repeat center center fixed !important;
+    background-size: cover !important;
+}
+
+#statuspanel {
+    margin: 4px !important;
+}
+
+#statuspanel-label {
+    border-radius: 8px !important;
+    padding: 2px 10px !important;
+    background: rgba(0, 0, 0, 0.9) !important;
+    border: rgba(255, 255, 255, 0.3) 1px solid !important;
+    color: white !important;
+}
+
+#PersonalToolbar {
+    background: transparent !important;
+}
