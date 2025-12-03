@@ -1,7 +1,6 @@
 :root {
     --urlbar-inner-border-radius: 20px !important;
     --tab-border-radius: 20px !important;
-    --toolbarbutton-icon-fill: white !important;
 }
 
 :root {
@@ -18,15 +17,16 @@
 }
 
 #TabsToolbar {
-    background-color: rgba(255, 255, 255, 0.1) !important;
-    border: rgba(255, 255, 255, 0.5) 1px solid !important;
+    background-color: var(--bg-level1) !important;
+    border: var(--border-level1) 1px solid !important;
     margin: 4px 4px 0px 4px;
     border-radius: 10px;
 }
 
 .tabbrowser-tab[selected] .tab-background {
-    background-color: rgba(255, 255, 255, 0.2) !important;
-    border: rgba(255, 255, 255, 0.3) 1px solid !important;
+    background-color: var(--bg-level2) !important;
+    border: var(--border-level2) 1px solid !important;
+    box-shadow: none !important;
 }
 
 :root {

@@ -2,13 +2,19 @@
 
 @-moz-document url("about:newtab"), url("about:home") {
     .top-site-outer .tile {
-        background-color: rgba(0, 0, 0, 0.2) !important;
+        background-color: light-dark(
+            rgba(255, 255, 255, 0.3),
+            rgba(0, 0, 0, 0.5)
+        ) !important;
         border: rgba(255, 255, 255, 0.3) 1px solid !important;
     }
 
     .title {
-        color: white !important;
-        background-color: rgba(0, 0, 0, 0.5) !important;
+        color: light-dark(black, white) !important;
+        background-color: light-dark(
+            rgba(255, 255, 255, 0.5),
+            rgba(0, 0, 0, 0.5)
+        ) !important;
         border-radius: 10px !important;
         margin-top: 5px !important;
     }

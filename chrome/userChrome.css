@@ -1,6 +1,7 @@
 /* GlassFox
    Uhhhh, enjoy? */
 
+@import "glass/colors.css";
 @import "glass/common.css";
 @import "glass/navBar.css";
 @import "glass/tabs.css";

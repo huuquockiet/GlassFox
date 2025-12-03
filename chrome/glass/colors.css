@@ -67,3 +67,25 @@
         --color-bg: var(--color-yellow-10);
     }
 }
+
+@media -moz-pref("glass.darkMode") {
+    :root {
+        --bg-level1: rgba(255, 255, 255, 0.1);
+        --bg-level2: rgba(255, 255, 255, 0.2);
+        --border-level1: rgba(255, 255, 255, 0.5);
+        --border-level2: rgba(255, 255, 255, 0.3);
+        --forMenu: rgba(0, 0, 0, 0.8);
+        --forMenuFG: white;
+    }
+}
+
+@media not -moz-pref("glass.darkMode") {
+    :root {
+        --bg-level1: rgba(255, 255, 255, 0.38);
+        --border-level1: rgba(210, 215, 225, 0.28);
+        --bg-level2: rgba(255, 255, 255, 0.7);
+        --border-level2: rgba(195, 205, 220, 0.35);
+        --forMenu: rgba(255, 255, 255, 0.9);
+        --forMenuFG: black;
+    }
+}
