@@ -1,0 +1,69 @@
+@media -moz-pref("glass.colors", "violet") {
+    :root {
+        --color-fg: var(--color-violet-80);
+        --color-bg: var(--color-violet-10);
+    }
+}
+
+@media -moz-pref("glass.colors", "blue") {
+    :root {
+        --color-fg: var(--color-blue-80);
+        --color-bg: var(--color-blue-10);
+    }
+}
+
+@media -moz-pref("glass.colors", "cyan") {
+    :root {
+        --color-fg: var(--color-cyan-80);
+        --color-bg: var(--color-cyan-10);
+    }
+}
+
+@media -moz-pref("glass.colors", "gray") {
+    :root {
+        --color-fg: var(--color-gray-80);
+        --color-bg: var(--color-gray-20);
+    }
+}
+
+@media -moz-pref("glass.colors", "green") {
+    :root {
+        --color-fg: var(--color-green-80);
+        --color-bg: var(--color-green-10);
+    }
+}
+
+@media -moz-pref("glass.colors", "orange") {
+    :root {
+        --color-fg: var(--color-orange-80);
+        --color-bg: var(--color-orange-10);
+    }
+}
+
+@media -moz-pref("glass.colors", "pink") {
+    :root {
+        --color-fg: var(--color-pink-80);
+        --color-bg: var(--color-pink-10);
+    }
+}
+
+@media -moz-pref("glass.colors", "purple") {
+    :root {
+        --color-fg: var(--color-purple-80);
+        --color-bg: var(--color-purple-10);
+    }
+}
+
+@media -moz-pref("glass.colors", "red") {
+    :root {
+        --color-fg: var(--color-red-80);
+        --color-bg: var(--color-red-10);
+    }
+}
+
+@media -moz-pref("glass.colors", "yellow") {
+    :root {
+        --color-fg: var(--color-yellow-80);
+        --color-bg: var(--color-yellow-10);
+    }
+}

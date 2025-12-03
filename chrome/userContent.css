@@ -1,3 +1,5 @@
+@import "glass/colors.css";
+
 @-moz-document url("about:newtab"), url("about:home") {
     .top-site-outer .tile {
         background-color: rgba(0, 0, 0, 0.2) !important;
@@ -48,16 +50,16 @@
     }
 
     #categories > .category[selected] {
-        background: var(--color-violet-10) !important;
-        color: var(--color-violet-80) !important;
+        background: var(--color-bg) !important;
+        color: var(--color-fg) !important;
     }
 
     * {
-        accent-color: var(--color-violet-30) !important;
+        accent-color: var(--color-bg) !important;
     }
 
     .picker-item[checked] {
-        border: 4px var(--color-violet-30) solid !important;
+        border: 4px var(--color-bg) solid !important;
     }
 }
 

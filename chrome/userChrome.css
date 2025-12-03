@@ -1,8 +1,8 @@
 /* GlassFox
    Uhhhh, enjoy? */
 
-@import url("glass/common.css");
-@import url("glass/navBar.css");
-@import url("glass/tabs.css");
+@import "glass/common.css";
+@import "glass/navBar.css";
+@import "glass/tabs.css";
 
 /* Put your CSS here =) */

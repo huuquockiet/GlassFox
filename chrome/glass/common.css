@@ -1,3 +1,5 @@
+@import "colors.css";
+
 :root:not([inDOMFullscreen]) {
     #tabbrowser-tabbox[flex],
     #tabbrowser-tabpanels,
@@ -52,8 +54,8 @@ menupopup {
 }    
                                                                 
 menuitem:hover{
-  background-color: var(--color-violet-10) !important;
-  color: var(--color-violet-80) !important;
+  background-color: var(--color-bg) !important;
+  color: var(--color-fg) !important;
 }
 
 menuitem {
@@ -61,7 +63,7 @@ menuitem {
 }
 
 menu:where([_moz-menuactive="true"]:not([disabled="true"])), menuitem:where([_moz-menuactive="true"]:not([disabled="true"])) {
-  background-color: var(--color-violet-10) !important;
-  color: var(--color-violet-80) !important;
+  background-color: var(--color-bg) !important;
+  color: var(--color-fg) !important;
   border-radius: 10px !important;
 }
