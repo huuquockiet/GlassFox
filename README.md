@@ -3,6 +3,10 @@
 # ✨ About
 This CSS will make your Firefox/Floorp looks glassy! ( nice )
 
+## 👀 Preview
+![dark](images/dark.png)
+![light](images/light.png)
+
 ## 🔧 How to setup
 
 ### Step 1: Enable CSS Support and theme
