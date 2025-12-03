@@ -20,7 +20,7 @@
 }
 
 #main-window {
-    background: url("background.jpg") no-repeat center center fixed !important;
+    background: url("../background.jpg") no-repeat center center fixed !important;
     background-size: cover !important;
 }
 
@@ -47,23 +47,24 @@
     margin: 0px 4px 4px 0px;
 }
 
-menupopup { 
---panel-background: rgba(0, 0, 0, 0.8) !important;                       
---panel-border-color: rgba(15, 15, 15, 1) !important;                  
---panel-color: white !important;
-}    
-                                                                
-menuitem:hover{
-  background-color: var(--color-bg) !important;
-  color: var(--color-fg) !important;
+menupopup {
+    --panel-background: rgba(0, 0, 0, 0.8) !important;
+    --panel-border-color: rgba(15, 15, 15, 1) !important;
+    --panel-color: white !important;
+}
+
+menuitem:hover {
+    background-color: var(--color-bg) !important;
+    color: var(--color-fg) !important;
 }
 
 menuitem {
-  border-radius: 10px !important;
+    border-radius: 10px !important;
 }
 
-menu:where([_moz-menuactive="true"]:not([disabled="true"])), menuitem:where([_moz-menuactive="true"]:not([disabled="true"])) {
-  background-color: var(--color-bg) !important;
-  color: var(--color-fg) !important;
-  border-radius: 10px !important;
+menu:where([_moz-menuactive="true"]:not([disabled="true"])),
+menuitem:where([_moz-menuactive="true"]:not([disabled="true"])) {
+    background-color: var(--color-bg) !important;
+    color: var(--color-fg) !important;
+    border-radius: 10px !important;
 }
