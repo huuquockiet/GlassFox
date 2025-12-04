@@ -55,6 +55,15 @@
     transition: background 50ms linear, color 50ms linear !important;
 }
 
+#urlbar-results > * {
+    transition: background 50ms linear, color 50ms linear !important;
+}
+
+#urlbar-results .urlbarView-row[selected] {
+    background-color: var(--color-bg) !important;
+    color: var(--color-fg) !important;
+}
+
 @media -moz-pref("glass.navBar.colorInButton") {
     #nav-bar toolbarbutton[open="true"] .toolbarbutton-icon,
     #nav-bar toolbarbutton:active .toolbarbutton-icon, 
