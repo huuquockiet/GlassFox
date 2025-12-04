@@ -31,5 +31,20 @@ This CSS will make your Firefox/Floorp looks glassy! ( nice )
 3. Open it.
 4. Copy the `chrome` folder to your profile folder. Now, restart Firefox/Floorp and you are set!
 
+<br>
+<br>
+
+## ⚙️ Post-setup configs
+
+1. `glass.tab.inactiveBG` [boolean]: Add an faint background to inactive tabs;
+2. `glass.colors` [string]: Choose your own color! ( list above)
+3. `glass.navBar.colorInButton` [boolean]: Use your color for active toolbar buttons.
+4. `glass.darkMode` [boolean]: enable or disable dark mode. Remember to change your theme!
+
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ### PS: Hey, you can add an `background.jpg` to the chrome folder for a custom background!

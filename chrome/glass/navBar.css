@@ -50,3 +50,17 @@
 #urlbar-searchmode-switcher {
     background-color: rgba(255, 255, 255, 0.2) !important;
 }
+
+.toolbarbutton-icon, .toolbarbutton-badge-stack {
+    transition: background 50ms linear, color 50ms linear !important;
+}
+
+@media -moz-pref("glass.navBar.colorInButton") {
+    #nav-bar toolbarbutton[open="true"] .toolbarbutton-icon,
+    #nav-bar toolbarbutton:active .toolbarbutton-icon, 
+    #nav-bar toolbarbutton[open="true"] .toolbarbutton-badge-stack,
+    #nav-bar toolbarbutton:active .toolbarbutton-badge-stack {
+        background: var(--color-bg) !important;
+        color: var(--color-fg) !important;
+    }
+}

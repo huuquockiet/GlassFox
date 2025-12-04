@@ -29,6 +29,12 @@
     box-shadow: none !important;
 }
 
+@media -moz-pref("glass.tab.inactiveBG") {
+    .tabbrowser-tab:not([selected]) .tab-background {
+        background-color: var(--bg-level1);
+    }
+}
+
 :root {
     --tabpanel-background-color: #00000000 !important;
 }
