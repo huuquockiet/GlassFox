@@ -1,0 +1,22 @@
+#unified-extensions-view[visible="true"] .panel-header,
+#unified-extensions-view[visible="true"] .panel-subview-body,
+#unified-extensions-view[visible="true"] #unified-extensions-manage-extensions {
+  opacity: 0;
+  transform: translateY(-6px);
+  animation: fadeSlide 350ms ease-out forwards;
+}
+
+#unified-extensions-view[visible="true"] .panel-subview-body {
+  animation-delay: .35s;
+}
+
+#unified-extensions-view[visible="true"] #unified-extensions-manage-extensions {
+  animation-delay: .5s;
+}
+
+@keyframes fadeSlide {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -3,17 +3,18 @@
     #tabbrowser-tabpanels,
     browser[type="content-primary"],
     browser[type="content"] > html {
-        border-radius: 8px;
+        border-radius: var(--borderRadius);
         overflow: clip;
     }
 
     #tabbrowser-tabbox {
-        margin: 0px 4px 4px 4px !important;
+        margin: 0px var(--margin) var(--margin) var(--margin) !important;
         border: rgba(255, 255, 255, 0.5) 1px solid;
     }
 }
 
 #browser {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     background: none !important;
 }
 
@@ -23,11 +24,11 @@
 }
 
 #statuspanel {
-    margin: 4px;
+    margin: var(--margin);
 }
 
 #statuspanel-label {
-    border-radius: 8px !important;
+    border-radius: calc(var(--borderRadius) - 2px) !important;
     padding: 2px 10px !important;
     background: rgba(0, 0, 0, 0.9) !important;
     border: rgba(255, 255, 255, 0.3) 1px solid !important;
@@ -39,10 +40,10 @@
 }
 
 #panel-sidebar-select-box {
-    border-radius: 10px;
+    border-radius: var(--borderRadius);
     background: var(--bg-level1) !important;
     border: var(--border-level1) 1px solid !important;
-    margin: 0px 4px 4px 0px;
+    margin: 0px var(--margin) var(--margin) 0px;
 }
 
 menupopup {
@@ -58,12 +59,12 @@ menuitem:hover {
 }
 
 menuitem {
-    border-radius: 10px !important;
+    border-radius: var(--borderRadius) !important;
 }
 
 menu:where([_moz-menuactive="true"]:not([disabled="true"])),
 menuitem:where([_moz-menuactive="true"]:not([disabled="true"])) {
     background-color: var(--color-bg) !important;
     color: var(--color-fg) !important;
-    border-radius: 10px !important;
+    border-radius: var(--borderRadius) !important;
 }

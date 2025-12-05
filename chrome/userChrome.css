@@ -1,9 +1,13 @@
 /* GlassFox
    Uhhhh, enjoy? */
 
+@import "glass/variables.css";
 @import "glass/colors.css";
 @import "glass/common.css";
 @import "glass/navBar.css";
 @import "glass/tabs.css";
+
+@import "glass/navBar+/extensions.css";
+@import "glass/navBar+/downloads.css";
 
 /* Put your CSS here =) */

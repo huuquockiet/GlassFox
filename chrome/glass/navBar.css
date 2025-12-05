@@ -1,6 +1,6 @@
 #nav-bar {
-    margin: 4px 4px 4px 4px;
-    border-radius: 10px;
+    margin: var(--margin);
+    border-radius: var(--borderRadius);
     background: var(--bg-level1) !important;
     border: var(--border-level1) 1px solid !important;
 }
@@ -15,8 +15,13 @@
     border: var(--border-level2) 1px solid !important;
 }
 
+#urlbar[open] .urlbar-background {
+    background: var(--forURL) !important;
+}
+
 .urlbar-background {
     border-radius: 20px !important;
+    backdrop-filter: blur(var(--blur)) !important;
 }
 
 #urlbar[open] {
@@ -26,12 +31,10 @@
 
 @keyframes appear {
     0% {
-        transform: translateY(-30px);
-        opacity: 0;
+        transform: translateY(-20px);
     }
     100% {
         transform: translateY(5px);
-        opacity: 1;
     }
 }
 #urlbar:not([open]) {

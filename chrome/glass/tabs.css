@@ -19,8 +19,8 @@
 #TabsToolbar {
     background-color: var(--bg-level1) !important;
     border: var(--border-level1) 1px solid !important;
-    margin: 4px 4px 0px 4px;
-    border-radius: 10px;
+    margin: var(--margin) var(--margin) 0px var(--margin);
+    border-radius: var(--borderRadius);
 }
 
 .tabbrowser-tab[selected] .tab-background {

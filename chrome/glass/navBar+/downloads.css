@@ -1,0 +1,17 @@
+#downloadsPanel-mainView[visible="true"] .panel-view-body-unscrollable,
+#downloadsPanel-mainView[visible="true"] #downloadsFooter {
+  opacity: 0;
+  transform: translateY(-6px);
+  animation: fadeSlide 350ms ease-out forwards;
+}
+
+#downloadsPanel-mainView[visible="true"] #downloadsFooter {
+  animation-delay: .35s;
+}
+
+@keyframes fadeSlide {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

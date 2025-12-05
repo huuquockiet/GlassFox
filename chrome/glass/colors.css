@@ -76,6 +76,7 @@
         --border-level2: rgba(255, 255, 255, 0.3);
         --forMenu: rgba(0, 0, 0, 0.8);
         --forMenuFG: white;
+        --forURL: rgba(0, 0, 0, 0.7);
     }
 }
 
@@ -87,5 +88,6 @@
         --border-level2: rgba(195, 205, 220, 0.35);
         --forMenu: rgba(255, 255, 255, 0.9);
         --forMenuFG: black;
+        --forURL: rgba(255, 255, 255, 0.7);
     }
 }
