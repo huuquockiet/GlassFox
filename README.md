@@ -61,6 +61,7 @@ This CSS will make your Firefox/Floorp looks glassy! ( nice )
 | glass.navBar.colorInButton | boolean | true/false                                                         |
 | glass.darkMode             | boolean | true/false                                                         |
 | glass.lowTrans             | boolean | true/false                                                         |
+| glass.tab.activeLine       | boolean | true/false                                                         |
 
 > Just try them.
 

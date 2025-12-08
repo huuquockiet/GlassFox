@@ -35,6 +35,38 @@
     }
 }
 
+@media -moz-pref("glass.tab.activeLine") {
+    .tabbrowser-tab[selected] {
+        position: relative;
+    }
+    
+    .tabbrowser-tab[selected]::after {
+        animation: letsGo 150ms cubic-bezier(0.3, 1.4, 0.4, 1.3);
+        position: absolute;
+        left: 25%;
+        bottom: 5%;
+        content: "";
+        height: 10%;
+        border-radius: 50px;
+        width: 50%;
+        background: linear-gradient(90deg, var(--color-fg), var(--color-bg)) !important;
+        z-index: 10 !important;
+    }
+    
+    @keyframes letsGo {
+        0% {
+            left: 45%;
+            width: 10%;
+        }
+        100% {
+            left: 25%;
+            right: 50%;
+        }
+    }
+    
+    
+}
+
 :root {
     --tabpanel-background-color: #00000000 !important;
 }
