@@ -8,9 +8,9 @@ This CSS will make your Firefox/Floorp looks glassy! ( nice )
 ![light](images/light.png)
 
 > [!WARNING]
-> This theme is very dependant on your wallpaper
-> Your wallpaper will decide the contrast of the theme
-> I can reduce the transparency level, but I don't want to. I found it lost the glassy feel.
+> This theme is very dependant on your wallpaper.  
+> Your wallpaper will decide the contrast of the theme.  
+> I can reduce the transparency level, but I don't want to. I found it lost the glassy feel.  
 > If you really like your wallpaper, I will have a low transaparency option in the post-config.
 
 ## 🔧 How to setup
