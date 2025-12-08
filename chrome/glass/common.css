@@ -3,13 +3,13 @@
     #tabbrowser-tabpanels,
     browser[type="content-primary"],
     browser[type="content"] > html {
-        border-radius: var(--borderRadius);
+        border-radius: var(--borderRadius) !important;
         overflow: clip;
     }
 
     #tabbrowser-tabbox {
         margin: 0px var(--margin) var(--margin) var(--margin) !important;
-        border: rgba(255, 255, 255, 0.5) 1px solid;
+        box-shadow: none !important;
     }
 }
 
@@ -44,6 +44,41 @@
     background: var(--bg-level1) !important;
     border: var(--border-level1) 1px solid !important;
     margin: 0px var(--margin) var(--margin) 0px;
+}
+
+.panel-sidebar-button-wrapper > div {
+    transition: all 50ms linear!important;
+    border-radius: var(--borderRadius) !important;
+}
+
+.panel-sidebar-button-wrapper > div:hover {
+    background: var(--bg-level2) !important;
+    box-shadow: none !important;
+}
+
+.panel-sidebar-button-wrapper > div:active,
+.panel-sidebar-button-wrapper > div[data-checked="true"] {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10) !important;
+    background: var(--color-bg) !important;
+    color: var(--color-fg) !important;
+}
+
+.panel-sidebar-button-wrapper {
+    margin: 0px 1px !important;
+}
+
+#panel-sidebar-box {
+    border-radius: var(--borderRadius) !important;
+    overflow: clip !important;
+    margin-right: var(--margin);
+}
+
+#panel-sidebar-splitter {
+    opacity: 0;
+}
+
+#panel-sidebar-splitter:hover {
+    opacity: 1;
 }
 
 menupopup {
