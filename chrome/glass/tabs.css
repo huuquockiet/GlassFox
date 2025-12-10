@@ -55,8 +55,8 @@
     
     @keyframes letsGo {
         0% {
-            left: 45%;
-            width: 10%;
+            left: 35%;
+            width: 30%;
         }
         100% {
             left: 25%;

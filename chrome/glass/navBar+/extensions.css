@@ -20,3 +20,15 @@
     transform: translateY(0);
   }
 }
+
+.unified-extensions-item-message-deck {
+  display: none !important;
+}
+
+.unified-extensions-item .toolbarbutton-badge-stack .toolbarbutton-icon {
+  scale: 0.8;
+}
+
+.unified-extensions-item  toolbarbutton {
+  padding: 4px 8px !important;
+}

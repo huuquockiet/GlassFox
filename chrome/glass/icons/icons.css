@@ -1,0 +1,24 @@
+.toolbarbutton-icon {
+  -moz-context-properties: stroke, fill, fill-opacity, stroke-opacity !important;
+  fill: var(--toolbarbutton-icon-fill) !important;
+}
+
+#back-button {
+  list-style-image: url("back.svg") !important;
+}
+
+#forward-button {
+  list-style-image: url("forward.svg") !important;
+}
+
+#downloads-indicator-anchor {
+  list-style-image: url("downloads.svg") !important;
+}
+
+#reload-button {
+  list-style-image: url("reload.svg") !important;
+}
+
+#unified-extensions-button {
+  list-style-image: url("extensions.svg") !important;
+}
