@@ -24,7 +24,7 @@ This CSS will make your Firefox/Floorp looks glassy! ( nice )
 > You can freely change the colors at any time.
 6. `glass.darkMode`, boolean, on or off, your choice. 
 7. `glass.lowTrans`, boolean, on or off, your choice. 
-8. Install Firefox Color and use this [theme](https://color.firefox.com/?theme=XQAAAAImAQAAAAAAAABBKYhm849SCia3ftKEGccwS-xMDPrv2Sw6Caq-qy5QgqeHG4K15QeDoRokmgjiM6AAxM3X9F70ZoGsfXBn8NHNS5chMvkRB4ubMyj96LOtIiijIsgivikShXIJBiNLhibBR-iNGmJEyvv6GxT3L8ZfZ44U7SMuqRU34nmT2wH0zXB7cYRhxWi9IXLqUA_QfQAjOd6C4Ce-9yfJm6ratFBHYVIYP_6fLRM) for dark mode and [this one](https://color.firefox.com/?theme=XQAAAAIjAQAAAAAAAABBKYhm849SCia3ftKEGccwS-xMDPsqvXkIbAF6EJDWcx9sS_Bi3JZGE6ZZI2STfI2PTljmGGFHhwDZfo4qhuO1-os1kvlv3_7Vi7bWsD1aSLNq3vx8UARZhlN23F-pG5V5sKFbj3rQGim82pO76YncVsjEygUyfHSZyTpADfHz-YLgnmqfCfXvAdGoO1GlQlcRRD7GhIuM35nY0ZVZ9R7_JYbAAA) for light mode.
+8. Install Firefox Color and use this [theme](https://color.firefox.com/?theme=XQAAAAImAQAAAAAAAABBKYhm849SCia3ftKEGccwS-xMDPrv2Sw6Caq-qy5QgqeHG4K15QeDoRokmgjiM6AAxM3X9F70ZoGsfXBn8NHNS5chMvkRB4ubMyj96LOtIiijIsgivikShXIJBiNLhibBR-iNGmJEyvv6GxT3L8ZfZ44U7SMuqRU34nmT2wH0zXB7cYRhxWi9IXLqUA_QfQAjOd6C4Ce-9yfJm6ratFBHYVIYP_6fLRM) for dark mode and [this one](https://color.firefox.com/?theme=XQAAAAImAQAAAAAAAABBKYhm849SCia3ftKEGccwS-xMDPsqvXkIbAF6EJDWcx9sS_Bi3JZGE6ZZI2STfI2PTljmZeTrMnMMln3VLzQxRtjU4Ax4qsBMLJkb4Y1v6rDKoIBjvU-IRx02MyIU5x0_AANF1xW_qZlDtSZMyPI7i4YP8bril8q8rr7TpsUa5ZmWs4oKi-k09wLZgxbjg-vVlKSW-k36EyOtc7HL___vBJAA) for light mode.
 9. If you are using Floorp, please use Proton tab style.
 
 > I wanted to simplify this step, but limited skills, so sorry :)

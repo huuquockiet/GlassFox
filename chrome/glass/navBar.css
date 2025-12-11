@@ -24,6 +24,10 @@
     backdrop-filter: blur(var(--blur)) !important;
 }
 
+#urlbar-input {
+    text-align: center !important;
+}
+
 #urlbar[open] {
     animation: appear 500ms cubic-bezier(0.25, 0.8, 0.25, 1);
     transform: translateY(5px);

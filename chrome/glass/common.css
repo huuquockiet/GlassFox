@@ -48,7 +48,7 @@
 }
 
 .panel-sidebar-button-wrapper > div {
-    transition: all 50ms linear!important;
+    transition: all 50ms linear !important;
     border-radius: var(--borderRadius) !important;
 }
 
@@ -59,7 +59,7 @@
 
 .panel-sidebar-button-wrapper > div:active,
 .panel-sidebar-button-wrapper > div[data-checked="true"] {
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
     background: var(--color-bg) !important;
     color: var(--color-fg) !important;
 }
@@ -89,7 +89,7 @@ menupopup {
 }
 
 menuitem:hover {
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     background-color: var(--color-bg) !important;
     color: var(--color-fg) !important;
 }
@@ -112,4 +112,23 @@ menuitem:where([_moz-menuactive="true"]:not([disabled="true"])) {
 .split-view-panel:not(.deck-selected):not(:hover) {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
     transform: scale(0.9) !important;
+}
+
+.split-view-splitter {
+    background-color: var(--color-bg) !important;
+    transform: scaleY(0.9);
+    border-radius: 5px !important;
+    margin: 0px 2px !important;
+    border: none !important;
+}
+
+#sidebar-main {
+    background-color: var(--bg-level1) !important;
+    border: var(--border-level1) 1px solid !important;
+    margin: 0px 0px var(--margin) var(--margin) !important;
+    border-radius: var(--borderRadius);
+}
+
+#sidebar {
+    background: var(--forMenu) !important;
 }
