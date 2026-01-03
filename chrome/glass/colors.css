@@ -1,79 +1,79 @@
 @media -moz-pref("glass.colors", "violet") {
     :root {
-        --color-fg: var(--color-violet-80);
-        --color-bg: var(--color-violet-10);
+        --colorFg: var(--color-violet-80);
+        --colorBg: var(--color-violet-10);
     }
 }
 
 @media -moz-pref("glass.colors", "blue") {
     :root {
-        --color-fg: var(--color-blue-80);
-        --color-bg: var(--color-blue-10);
+        --colorFg: var(--color-blue-80);
+        --colorBg: var(--color-blue-10);
     }
 }
 
 @media -moz-pref("glass.colors", "cyan") {
     :root {
-        --color-fg: var(--color-cyan-80);
-        --color-bg: var(--color-cyan-10);
+        --colorFg: var(--color-cyan-80);
+        --colorBg: var(--color-cyan-10);
     }
 }
 
 @media -moz-pref("glass.colors", "gray") {
     :root {
-        --color-fg: var(--color-gray-80);
-        --color-bg: var(--color-gray-20);
+        --colorFg: var(--color-gray-80);
+        --colorBg: var(--color-gray-20);
     }
 }
 
 @media -moz-pref("glass.colors", "green") {
     :root {
-        --color-fg: var(--color-green-80);
-        --color-bg: var(--color-green-10);
+        --colorFg: var(--color-green-80);
+        --colorBg: var(--color-green-10);
     }
 }
 
 @media -moz-pref("glass.colors", "orange") {
     :root {
-        --color-fg: var(--color-orange-80);
-        --color-bg: var(--color-orange-10);
+        --colorFg: var(--color-orange-80);
+        --colorBg: var(--color-orange-10);
     }
 }
 
 @media -moz-pref("glass.colors", "pink") {
     :root {
-        --color-fg: var(--color-pink-80);
-        --color-bg: var(--color-pink-10);
+        --colorFg: var(--color-pink-80);
+        --colorBg: var(--color-pink-10);
     }
 }
 
 @media -moz-pref("glass.colors", "purple") {
     :root {
-        --color-fg: var(--color-purple-80);
-        --color-bg: var(--color-purple-10);
+        --colorFg: var(--color-purple-80);
+        --colorBg: var(--color-purple-10);
     }
 }
 
 @media -moz-pref("glass.colors", "red") {
     :root {
-        --color-fg: var(--color-red-80);
-        --color-bg: var(--color-red-10);
+        --colorFg: var(--color-red-80);
+        --colorBg: var(--color-red-10);
     }
 }
 
 @media -moz-pref("glass.colors", "yellow") {
     :root {
-        --color-fg: var(--color-yellow-80);
-        --color-bg: var(--color-yellow-10);
+        --colorFg: var(--color-yellow-80);
+        --colorBg: var(--color-yellow-10);
     }
 }
 
 @media -moz-pref("glass.darkMode", true) and -moz-pref("glass.lowTrans", true) {
     :root {
-        --bg-level1: rgba(255, 255, 255, 0.1);
-        --bg-level2: rgba(255, 255, 255, 0.2);
-        --border-level1: rgba(255, 255, 255, 0.5);
-        --border-level2: rgba(255, 255, 255, 0.3);
+        --bgLevel1: rgba(255, 255, 255, 0.1);
+        --bgLevel2: rgba(255, 255, 255, 0.2);
+        --borderLevel1: rgba(255, 255, 255, 0.5);
+        --borderLevel2: rgba(255, 255, 255, 0.3);
         --forMenu: rgba(0, 0, 0, 0.8);
         --forMenuFG: white;
         --forURL: rgba(0, 0, 0, 0.7);
@@ -82,10 +82,10 @@
 
 @media -moz-pref("glass.darkMode", false) and -moz-pref("glass.lowTrans", true) {
     :root {
-        --bg-level1: rgba(255, 255, 255, 0.38);
-        --border-level1: rgba(210, 215, 225, 0.28);
-        --bg-level2: rgba(255, 255, 255, 0.7);
-        --border-level2: rgba(195, 205, 220, 0.35);
+        --bgLevel1: rgba(255, 255, 255, 0.38);
+        --borderLevel1: rgba(210, 215, 225, 0.28);
+        --bgLevel2: rgba(255, 255, 255, 0.7);
+        --borderLevel2: rgba(195, 205, 220, 0.35);
         --forMenu: rgba(255, 255, 255, 0.9);
         --forMenuFG: black;
         --forURL: rgba(255, 255, 255, 0.7);
@@ -94,10 +94,10 @@
 
 @media -moz-pref("glass.darkMode", true) and -moz-pref("glass.lowTrans", false) {
     :root {
-        --bg-level1: rgba(0, 0, 0, 0.2);
-        --bg-level2: rgba(255, 255, 255, 0.2);
-        --border-level1: rgba(255, 255, 255, 0.5);
-        --border-level2: rgba(255, 255, 255, 0.3);
+        --bgLevel1: rgba(0, 0, 0, 0.2);
+        --bgLevel2: rgba(255, 255, 255, 0.2);
+        --borderLevel1: rgba(255, 255, 255, 0.5);
+        --borderLevel2: rgba(255, 255, 255, 0.3);
         --forMenu: rgba(0, 0, 0, 0.8);
         --forMenuFG: white;
         --forURL: rgba(0, 0, 0, 0.7);
@@ -106,10 +106,10 @@
 
 @media -moz-pref("glass.darkMode", false) and -moz-pref("glass.lowTrans", false) {
     :root {
-        --bg-level1: rgba(255, 255, 255, 0.7);
-        --border-level1: rgba(210, 215, 225, 1);
-        --bg-level2: rgba(255, 255, 255, 1);
-        --border-level2: rgba(195, 205, 220, 0.35);
+        --bgLevel1: rgba(255, 255, 255, 0.7);
+        --borderLevel1: rgba(210, 215, 225, 1);
+        --bgLevel2: rgba(255, 255, 255, 1);
+        --borderLevel2: rgba(195, 205, 220, 0.35);
         --forMenu: rgba(255, 255, 255, 0.9);
         --forMenuFG: black;
         --forURL: rgba(255, 255, 255, 0.7);

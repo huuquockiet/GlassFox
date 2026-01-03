@@ -1,4 +1,5 @@
 @import "glass/colors.css";
+@import "glass/variables.css";
 
 @-moz-document url("about:newtab"), url("about:home") {
     .top-site-outer .tile {
@@ -6,7 +7,14 @@
             rgba(255, 255, 255, 0.3),
             rgba(0, 0, 0, 0.5)
         ) !important;
+        border-radius: var(--borderRadius) !important;
         border: rgba(255, 255, 255, 0.3) 1px solid !important;
+        transition: all 200ms var(--bezier) ;
+    }
+    
+    .top-site-outer:has( > :active) .tile {
+        scale: 0.8;
+        border: none;
     }
 
     .title {
@@ -15,7 +23,7 @@
             rgba(255, 255, 255, 0.5),
             rgba(0, 0, 0, 0.5)
         ) !important;
-        border-radius: 10px !important;
+        border-radius: var(--borderRadius) !important;
         margin-top: 5px !important;
     }
 
@@ -30,6 +38,11 @@
 
     .mobileDownloadPromoWrapper {
         display: none !important;
+    }
+    
+    .customize-menu-animate-wrapper {
+        margin: 10px;
+        border-radius: var(--borderRadius) !important;
     }
 }
 

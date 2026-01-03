@@ -1,8 +1,8 @@
 #nav-bar {
     margin: var(--margin);
     border-radius: var(--borderRadius);
-    background: var(--bg-level1) !important;
-    border: var(--border-level1) 1px solid !important;
+    background: var(--bgLevel1) !important;
+    border: var(--borderLevel1) 1px solid !important;
 }
 
 #navigator-toolbox {
@@ -11,8 +11,8 @@
 }
 
 #urlbar:not([open]) .urlbar-background {
-    background-color: var(--bg-level2) !important;
-    border: var(--border-level2) 1px solid !important;
+    background-color: var(--bgLevel2) !important;
+    border: var(--borderLevel2) 1px solid !important;
 }
 
 #urlbar[open] .urlbar-background {
@@ -20,7 +20,7 @@
 }
 
 .urlbar-background {
-    border-radius: 20px !important;
+    border-radius: var(--borderRadius) !important;
     backdrop-filter: blur(var(--blur)) !important;
 }
 
@@ -29,7 +29,7 @@
 }
 
 #urlbar[open] {
-    animation: appear 500ms cubic-bezier(0.25, 0.8, 0.25, 1);
+    animation: appear 400ms var(--bezier);
     transform: translateY(5px);
 }
 
@@ -42,15 +42,15 @@
     }
 }
 #urlbar:not([open]) {
-    animation: comeBack 150ms cubic-bezier(0.25, 0.8, 0.25, 1);
+    animation: comeBack 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 @keyframes comeBack {
     0% {
-        transform: translateY(5px);
+        transform: translateY(5px) scaleX(1);
     }
     100% {
-        transform: translateY(0px);
+        transform: translateY(0px) scaleX(1);
     }
 }
 
@@ -58,26 +58,38 @@
     background-color: rgba(255, 255, 255, 0.2) !important;
 }
 
-.toolbarbutton-icon, .toolbarbutton-badge-stack {
-    transition: background 50ms linear, color 50ms linear !important;
+.toolbarbutton-icon,
+.toolbarbutton-badge-stack {
+    transition:
+        background 50ms linear,
+        color 50ms linear !important;
 }
 
 #urlbar-results > * {
-    transition: background 50ms linear, color 50ms linear !important;
+    border-radius: 8px !important;
+    transition:
+        background 50ms linear,
+        color 50ms linear !important;
 }
 
 #urlbar-results .urlbarView-row[selected] {
-    background-color: var(--color-bg) !important;
-    color: var(--color-fg) !important;
+    background-color: var(--colorBg) !important;
+    color: var(--colorFg) !important;
 }
 
 @media -moz-pref("glass.navBar.colorInButton") {
     #nav-bar toolbarbutton[open="true"] .toolbarbutton-icon,
-    #nav-bar toolbarbutton:active .toolbarbutton-icon, 
+    #nav-bar toolbarbutton:active .toolbarbutton-icon,
     #nav-bar toolbarbutton[open="true"] .toolbarbutton-badge-stack,
     #nav-bar toolbarbutton:active .toolbarbutton-badge-stack {
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
-        background: var(--color-bg) !important;
-        color: var(--color-fg) !important;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        background: var(--colorBg) !important;
+        color: var(--colorFg) !important;
+    }
+}
+
+@media -moz-pref("glass.navBar.hideSomeURLActions") {
+    #tracking-protection-icon-container {
+        display: none !important;
     }
 }

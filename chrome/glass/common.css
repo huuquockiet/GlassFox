@@ -31,9 +31,9 @@
 #statuspanel-label {
     border-radius: calc(var(--borderRadius) - 2px) !important;
     padding: 2px 10px !important;
-    background: rgba(0, 0, 0, 0.9) !important;
+    background: var(--colorBg) !important;
     border: rgba(255, 255, 255, 0.3) 1px solid !important;
-    color: white !important;
+    color: var(--colorFg) !important;
 }
 
 #PersonalToolbar {
@@ -42,8 +42,8 @@
 
 #panel-sidebar-select-box {
     border-radius: var(--borderRadius);
-    background: var(--bg-level1) !important;
-    border: var(--border-level1) 1px solid !important;
+    background: var(--bgLevel1) !important;
+    border: var(--borderLevel1) 1px solid !important;
     margin: 0px var(--margin) var(--margin) 0px;
 }
 
@@ -53,15 +53,15 @@
 }
 
 .panel-sidebar-button-wrapper > div:hover {
-    background: var(--bg-level2) !important;
+    background: var(--bgLevel2) !important;
     box-shadow: none !important;
 }
 
 .panel-sidebar-button-wrapper > div:active,
 .panel-sidebar-button-wrapper > div[data-checked="true"] {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
-    background: var(--color-bg) !important;
-    color: var(--color-fg) !important;
+    background: var(--colorBg) !important;
+    color: var(--colorFg) !important;
 }
 
 .panel-sidebar-button-wrapper {
@@ -84,14 +84,14 @@
 
 menupopup {
     --panel-background: var(--forMenu) !important;
-    --panel-border-color: var(--border-level1) !important;
+    --panel-border-color: var(--borderLevel1) !important;
     --panel-color: var(--forMenuFG) !important;
 }
 
 menuitem:hover {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    background-color: var(--color-bg) !important;
-    color: var(--color-fg) !important;
+    background-color: var(--colorBg) !important;
+    color: var(--colorFg) !important;
 }
 
 menuitem {
@@ -100,8 +100,8 @@ menuitem {
 
 menu:where([_moz-menuactive="true"]:not([disabled="true"])),
 menuitem:where([_moz-menuactive="true"]:not([disabled="true"])) {
-    background-color: var(--color-bg) !important;
-    color: var(--color-fg) !important;
+    background-color: var(--colorBg) !important;
+    color: var(--colorFg) !important;
     border-radius: var(--borderRadius) !important;
 }
 
@@ -115,7 +115,7 @@ menuitem:where([_moz-menuactive="true"]:not([disabled="true"])) {
 }
 
 .split-view-splitter {
-    background-color: var(--color-bg) !important;
+    background-color: var(--colorBg) !important;
     transform: scaleY(0.9);
     border-radius: 5px !important;
     margin: 0px 2px !important;
@@ -123,8 +123,8 @@ menuitem:where([_moz-menuactive="true"]:not([disabled="true"])) {
 }
 
 #sidebar-main {
-    background-color: var(--bg-level1) !important;
-    border: var(--border-level1) 1px solid !important;
+    background-color: var(--bgLevel1) !important;
+    border: var(--borderLevel1) 1px solid !important;
     margin: 0px 0px var(--margin) var(--margin) !important;
     border-radius: var(--borderRadius);
 }

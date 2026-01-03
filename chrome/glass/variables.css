@@ -3,5 +3,5 @@
   --margin : 4px;
   --blur: 15px;
   --borderRadius: 10px;
-  
+  --bezier: cubic-bezier( 0.17, 0.89, 0.32, 1.27 );
 }
