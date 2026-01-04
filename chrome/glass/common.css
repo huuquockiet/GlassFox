@@ -127,8 +127,12 @@ menuitem:where([_moz-menuactive="true"]:not([disabled="true"])) {
     border: var(--borderLevel1) 1px solid !important;
     margin: 0px 0px var(--margin) var(--margin) !important;
     border-radius: var(--borderRadius);
-}
+} 
 
 #sidebar {
     background: var(--forMenu) !important;
+}
+
+#sidebar-tools-and-extensions-splitter {
+    display: none !important;
 }

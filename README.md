@@ -11,6 +11,8 @@ This CSS will make your Firefox/Floorp looks glassy! ( nice )
 > Your wallpaper will decide the contrast of the theme.  
 > I can reduce the transparency level by default, but I don't want to. I found it lost the glassy feel.  
 > If you really like your wallpaper, I will have a low transaparency option in the post-config.
+> Lastly, vertical tabs looks very bad.
+
 
 ## 🔧 How to setup
 
@@ -43,6 +45,8 @@ This CSS will make your Firefox/Floorp looks glassy! ( nice )
 <br>
 
 ## ⚙️ Post-setup configs 
+
+You can open `about:config` and search for various configs!
 
 > [!WARNING]
 > `glass.colors`, `glass.darkMode` and `glass.lowTrans` are required for the theme to work properly 

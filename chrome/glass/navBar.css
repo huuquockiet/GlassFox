@@ -89,7 +89,9 @@
 }
 
 @media -moz-pref("glass.navBar.hideSomeURLActions") {
-    #tracking-protection-icon-container {
+    #tracking-protection-icon-container,
+    #reader-mode-button,
+    #translations-button {
         display: none !important;
     }
 }

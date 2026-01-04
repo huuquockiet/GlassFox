@@ -72,16 +72,16 @@
     }
 
     #categories > .category[selected] {
-        background: var(--color-bg) !important;
-        color: var(--color-fg) !important;
+        background: var(--colorBg) !important;
+        color: var(--colorFg) !important;
     }
 
     * {
-        accent-color: var(--color-bg) !important;
+        accent-color: var(--colorBg) !important;
     }
 
     .picker-item[checked] {
-        border: 4px var(--color-bg) solid !important;
+        border: 4px var(--colorBg) solid !important;
     }
 }
 

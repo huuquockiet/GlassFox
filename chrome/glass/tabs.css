@@ -3,7 +3,7 @@
 }
 
 :root {
-    --tab-min-height: 30px !important;
+    --tab-min-height: 35px !important;
 }
 
 #tabbrowser-tabs .tabbrowser-tabs .tabbrowser-tab {
@@ -31,7 +31,7 @@
 
 @keyframes bgIn {
     from {
-        scale: 0.9;
+        scale: 0.8;
     }
     to {
         scale: 1;
@@ -40,6 +40,7 @@
 
 .tab-background {
     border-radius: var(--borderRadius) !important;
+    transition: background-color 50ms linear !important; */
 }
 
 @media -moz-pref("glass.tab.inactiveBG") {
