@@ -29,6 +29,6 @@
   scale: 0.8;
 }
 
-.unified-extensions-item  toolbarbutton {
+#unified-extensions-area .unified-extensions-item  toolbarbutton {
   padding: 4px 8px !important;
 }

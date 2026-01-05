@@ -24,6 +24,12 @@
     background-size: cover !important;
 }
 
+@media -moz-pref("glass.common.windowBG") {
+    #main-window {
+        background-color: var(--colorBg) !important;
+    }
+}
+
 #statuspanel {
     margin: var(--margin);
 }
@@ -71,7 +77,7 @@
 #panel-sidebar-box {
     border-radius: var(--borderRadius) !important;
     overflow: clip !important;
-    margin-right: var(--margin);
+    margin: 0px var(--margin) var(--margin) 0px;
 }
 
 #panel-sidebar-splitter {
@@ -127,7 +133,7 @@ menuitem:where([_moz-menuactive="true"]:not([disabled="true"])) {
     border: var(--borderLevel1) 1px solid !important;
     margin: 0px 0px var(--margin) var(--margin) !important;
     border-radius: var(--borderRadius);
-} 
+}
 
 #sidebar {
     background: var(--forMenu) !important;

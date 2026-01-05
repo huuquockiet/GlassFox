@@ -24,7 +24,7 @@ This CSS will make your Firefox/Floorp looks glassy! ( nice )
 2. If you are using Floorp, please use Proton tab style.
 
 ### Note
-- If you are using Windows 10, install [DWMBlurGlass](https://github.com/Maplespe/DWMBlurGlass) for effects
+- Buggy on Windows 10, need more testing.
 - If you are using Windows 11, enable `widget.windows.mica`.
 - Linux transparency + blur should be handled by your WM.
 - Untested on macOS.
@@ -47,6 +47,7 @@ This CSS will make your Firefox/Floorp looks glassy! ( nice )
 ## ⚙️ Post-setup configs 
 
 You can open `about:config` and search for various configs!
+Just type `glass.` in the search bar and play around
 
 > [!WARNING]
 > `glass.colors`, `glass.darkMode` and `glass.lowTrans` are required for the theme to work properly 

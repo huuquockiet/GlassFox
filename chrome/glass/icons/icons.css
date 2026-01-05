@@ -14,14 +14,24 @@
     }
 
     #downloads-indicator-anchor {
-        list-style-image: url("downloads.svg") !important;
-    }
-
-    #reload-button {
-        list-style-image: url("reload.svg") !important;
+        width: 16px;
+        height: 16px;
+        list-style-image: url("download.svg") !important;
     }
 
     #unified-extensions-button {
         list-style-image: url("extensions.svg") !important;
+    }
+    
+    #library-button {
+        list-style-image: url("library.svg") !important;
+    }
+    
+    #bookmarks-menu-button {
+        list-style-image: url("bookmarks.svg") !important;
+    }
+    
+    #panic-button {
+        list-style-image: url("delete_history.svg") !important;
     }
 }
