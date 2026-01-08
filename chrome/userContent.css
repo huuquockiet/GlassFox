@@ -7,36 +7,53 @@
         background-color: var(--bgLevel1) !important;
         border-radius: var(--borderRadius) !important;
         border: var(--borderLevel1) 1px solid !important;
-        transition: all 200ms var(--bezier) ;
+        transition: all 200ms var(--bezier);
+        height: 60px !important;
+        width: 80px !important;
+        backdrop-filter: blur(10px) !important;
     }
-    
-    .top-site-outer:has( > :active) .tile {
+
+    .top-site-outer:has(> :active) .tile {
         scale: 0.9;
         border: none;
     }
 
     .title {
         color: light-dark(black, white) !important;
-        background-color: light-dark(
-            rgba(255, 255, 255, 0.5),
-            rgba(0, 0, 0, 0.5)
-        ) !important;
         border-radius: var(--borderRadius) !important;
         margin-top: 5px !important;
     }
 
+    @media -moz-pref("glass.darkMode", true) {
+        .title {
+            background-color: rgba(0, 0, 0, 0.5) !important;
+        }
+        .search-handoff-button {
+            color: white !important;
+        }
+    }
+
+    @media -moz-pref("glass.darkMode", false) {
+        .title {
+            background-color: rgba(255, 255, 255, 0.5) !important;
+        }
+        .search-handoff-button {
+            color: black !important;
+        }
+    }
+
     .search-handoff-button {
+        backdrop-filter: blur(20px) !important;
         box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1) !important;
-        background-color: var(--bgLevel1) !important;
-        border-radius: 50px!important;
+        border-radius: 50px !important;
         border: var(--borderLevel1) 1px solid !important;
-        color: light-dark(black, white); 
+        background-color: var(--bgLevel1) !important;
     }
 
     .mobileDownloadPromoWrapper {
         display: none !important;
     }
-    
+
     .customize-menu-animate-wrapper {
         margin: 10px;
         border-radius: var(--borderRadius) !important;
